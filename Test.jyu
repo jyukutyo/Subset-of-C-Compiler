@@ -1,0 +1,12 @@
+int i;
+void main() {
+  i = 2;
+  int x;
+  x = 3;
+  if (i < x) {
+    mul(i, x);
+  }
+}
+int mul(int a, int b) {
+  return a * b;
+}
